@@ -168,7 +168,9 @@ class NetworkParser:
         import os
 
         self.logger.info("Starting network convertion...")
-        cores = round(os.cpu_count() * 4 / 4)
+        cores = 1#round(os.cpu_count() * 4 / 4)
+        print(cores)
+        # os.sys.exit()
         self.logger.info(f"Multiprocessing: {cores} cpus...")
 
         pool = Pool(processes=cores)

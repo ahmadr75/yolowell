@@ -1,10 +1,10 @@
-weights_path: "./binary/weights.pickle"
-variance_path: "./binary/variance.pickle"
-mean_path: "./binary/mean.pickle"
-scale_path: "./binary/scale.pickle"
-biases_path: "./binary/biases.pickle"
-output_path: "./generated"
-project: "./darknet_hdl.qsf"
+weights_path: "./submodule/yolowell/binary/weights.pickle"
+variance_path: "./submodule/yolowell/binary/variance.pickle"
+mean_path: "./submodule/yolowell/binary/mean.pickle"
+scale_path: "./submodule/yolowell/binary/scale.pickle"
+biases_path: "./submodule/yolowell/binary/biases.pickle"
+output_path: "./submodule/yolowell/generated"
+project: "./submodule/yolowell/darknet_hdl.qsf"
 width: 416
 channels: 3
 layer_groups:
